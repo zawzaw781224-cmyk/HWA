@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Our Love 💕</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <audio id="loveAudio" loop>
+  <source src="/static/music/music1.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<!-- optional play button for mobile -->
+<button onclick="document.getElementById('loveAudio').play()">
+  Play Our Love Song 💖
+</button>
+  <div class="container">
+    <h1>Htet Wai Aung & Su Myat Thandar 💖</h1>
+    <h2>Our Love Story</h2>
+
+    <p>We've been together for:</p>
+    <p>{{ years }} years, {{ months }} months, {{ days }} days 💕</p>
+    
+  </div>
+  <div class="gallery">
+  <h2>💖 Our Memories 💖</h2>
+  <img src="/static/photos/photo1.jpg" alt="Memory 1">
+  <img src="/static/photos/photo2.jpg" alt="Memory 2">
+  <img src="/static/photos/photo3.jpg" alt="Memory 3">
+</div>
+  
+
+  <script src="/static/hearts.js"></script>
+</body>
+</html>
