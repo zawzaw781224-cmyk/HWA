@@ -13,7 +13,7 @@ password TEXT
 
 cursor.execute(
 "INSERT INTO users (username,password) VALUES (?,?)",
-("admin","312023")
+("hwsm","312023")
 )
 
 conn.commit()
